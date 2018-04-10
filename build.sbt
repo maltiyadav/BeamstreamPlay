@@ -41,6 +41,8 @@ resolvers += "Sonatype Nexus Snapshots" at "https://oss.sonatype.org/content/rep
 
 resolvers += "Sonatype Nexus Releases" at "https://oss.sonatype.org/content/repositories/releases"
 
+resolvers +=  "OpenIMAJ Maven Repo" at "http://maven.openimaj.org"
+
 org.scalastyle.sbt.ScalastylePlugin.Settings
 
 ScctPlugin.instrumentSettings
